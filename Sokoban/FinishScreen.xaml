@@ -1,0 +1,19 @@
+﻿<Page
+    x:Class="Sokoban_Game_UWP.FinishScreen"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:Sokoban_Game_UWP"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    Background="{ThemeResource AppBarToggleButtonCheckedBackgroundThemeBrush}" Width="800" Height="950">
+
+    <Grid>
+        <TextBlock HorizontalAlignment="Center" Margin="0,80,0,0" Text="You Win" TextWrapping="Wrap" VerticalAlignment="Top" FocusVisualPrimaryBrush="White" Foreground="Black" FontFamily="Unispace" FontSize="64"/>
+        <TextBlock HorizontalAlignment="Left" Margin="307,162,0,0" Text="Moves:" TextWrapping="Wrap" VerticalAlignment="Top" FontFamily="Unispace" FontSize="36" Foreground="#FF1B1B1B"/>
+        <TextBlock x:Name="MoveCount" HorizontalAlignment="Left" Margin="444,162,0,0" Text="10" TextWrapping="Wrap" VerticalAlignment="Top" Foreground="Black" FontFamily="Unispace" FontSize="36" RenderTransformOrigin="0.817,0.318"/>
+        <Button Content="Reset" Margin="0,412,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.501,-1.431" Foreground="Black" Background="#33000000" BorderBrush="Black" HorizontalAlignment="Center" FontSize="48" FontFamily="Tahoma" Click="Button_Click_1"/>
+        <Button Content="Quit" Margin="0,550,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.501,-1.431" Foreground="Black" Background="#33000000" BorderBrush="Black" FontSize="48" FontFamily="Tahoma" Width="132" HorizontalAlignment="Center" Click="Button_Click"/>
+
+    </Grid>
+</Page>
