@@ -7,7 +7,8 @@ UWP implementation of classic Sokoban game
 
 These are all the platforms I tested the app on:
 
-- Windows 10 (PC) 
+- Windows 10 (Laptop) 
+- Windows 10 Mobile (Lumia 950)
 
 
 ## Screenshots
@@ -17,8 +18,9 @@ These are all the platforms I tested the app on:
 
 
 ## Tech. details
-Req. Win10 os build: 19041 or above
-Min. Win10(M) os build: 14393
+
+- Req. Win10 os build: 19041 or above
+- Min. Win10(M) os build: 14393
 
 
 ## .
